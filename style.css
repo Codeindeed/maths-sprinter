@@ -26,14 +26,12 @@ body {
   border: 1px solid black;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
   width: 530px;
-  height: 750px;
+  height: 730px;
   position: relative;
   background: rgba(255, 255, 255, 0.5);
   user-select: none;
   margin-top: 100px;
-  background-image: -webkit-repeating-linear-gradient(left, lightblue, 1px, transparent 1px, transparent 20px), -webkit-repeating-linear-gradient(bottom, lightblue, 2px, white 1px, white 35px);
-    background-image: repeating-linear-gradient(90deg, lightblue, 1px, transparent 1px, transparent 20px), repeating-linear-gradient(0deg, lightblue, 1px, white 2px, white 40px);
-    /* background-size: 40px 40px; */
+  /* background-size: 40px 40px; */
 }
 
 .header {
@@ -52,7 +50,7 @@ body {
 
 .card {
   margin: 5px auto 10px;
-  height: 600px;
+  height: 500px;
 }
 
 /* Splash Page -------------------- */
@@ -147,7 +145,7 @@ label {
   user-select: none;
 }
 
-.finished > h1 {
+.finished>h1 {
   opacity: 0.5;
 }
 
